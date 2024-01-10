@@ -1,0 +1,53 @@
+body {
+    background: grey;
+    font-family: Arial;
+  }
+  
+  li {
+    margin: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    background: black;
+    color: white;
+    padding: 5px;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  
+  .menu {
+      background-color: white;
+      padding: 2px;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .site-tittle {
+    
+  }
+  
+  .site-subtittle {
+    
+  }
