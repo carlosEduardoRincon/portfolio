@@ -1,53 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
 body {
-    background: grey;
-    font-family: Arial;
-  }
-  
-  li {
-    margin: 5px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  a:hover {
-    background: black;
-    color: white;
-    padding: 5px;
-  }
-  
-  .site-subtitle,
-  .site-title {
-    color: whitesmoke;
-    text-align: center;
-  }
-  
-  .site-subtitle {
-    font-style: italic;
-    font-size: 20px;
-    margin-top: -10px;
-  }
-  
-  .menu {
-      background-color: white;
-      padding: 2px;
-  }
-  
-  .menu ul {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .menu li {
-    list-style: none;
-  }
-  
-  .site-tittle {
-    
-  }
-  
-  .site-subtittle {
-    
-  }
+  height: 100vh;
+  box-sizing: border-box;
+  background: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main div {
+  padding: 30px;  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background: black;
+  color: white;
+  padding: 5px;
+}
+
+span {
+  color: #22D4FD;
+  border: 1px solid #22D4FD;
+  padding: 10px;
+}
+
+.apresentation {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin: 10%;
+  background-color: white;
+}
+
+.site-subtitle,
+.site-title {
+  padding-top: 20px;
+  color: black;
+  text-align: center;
+}
+
+.site-subtitle {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.apresentation__initial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  background-color: gray;
+}
+
+.apresentation__initial__title {
+  font-size: 50px;
+  font-family: "Krona One", sans-serif;
+}
+
+.apresentation__initial__text {
+  font-size: 20px;
+}
+
+.apresentation__experiences {
+  display: flex;
+  flex-direction: column;
+}
+
+.apresentation__utils {
+  display: flex;
+  align-items: center;
+}
+
+.skills h2 {
+  margin-bottom: 20px;
+}
