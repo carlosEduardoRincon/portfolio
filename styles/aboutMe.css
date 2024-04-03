@@ -4,17 +4,16 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
 body {
-  height: 100vh;
   box-sizing: border-box;
   background: black;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
 
 main div {
@@ -23,13 +22,6 @@ main div {
 
 a {
   text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  background: black;
-  color: white;
-  padding: 5px;
 }
 
 span {
@@ -38,18 +30,41 @@ span {
   padding: 10px;
 }
 
+.menu {
+  padding: 2% 0 0 15%;
+
+  display: flex;
+  gap: 80px;  
+}
+
+.menu__pages {
+  padding: 30px;
+}
+
+.menu a {
+  color: white;
+  font-weight: 600;
+  font-family: 'Montserrast', sans-serif;
+  font-size: 24px;
+  color: #22D4FD;
+}
+
+.menu a:hover {
+  color: white;
+}
+
 .apresentation {
   display: flex;
   align-items: start;
   justify-content: space-between;
-  margin: 10%;
-  background-color: white;
+  padding: 3% 15%;
+  background-color: b;
 }
 
 .site-subtitle,
 .site-title {
   padding-top: 20px;
-  color: black;
+  color: #22D4FD;
   text-align: center;
 }
 
@@ -58,21 +73,13 @@ span {
   font-size: 20px;
 }
 
-.menu ul {
-  display: flex;
-  justify-content: space-around;
-}
-
-.menu li {
-  list-style: none;
-}
-
 .apresentation__initial {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 800px;
-  background-color: gray;
+  width: 80%;
+  background-color: black;
 }
 
 .apresentation__initial__title {
@@ -87,13 +94,50 @@ span {
 .apresentation__experiences {
   display: flex;
   flex-direction: column;
+  padding: 5%;
 }
 
 .apresentation__utils {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  text-align: center;
+  gap: 25px;
+  margin-top: 80px;
+}
+
+.apresentation__utils a {
+  border: 2px solid #22D4FD;
+  border-radius: 8px;
+  width: 180px;
+  padding: 10px;
+  color: white;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.apresentation__utils a:hover {
+  color: white;
+  border: 2px solid;
+  background-color: #272727;
 }
 
 .skills h2 {
   margin-bottom: 20px;
+}
+
+.footer {
+  padding: 24px;
+
+  background-color: #22D4FD;
+  color: black;
+
+  font-weight: 1000;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
