@@ -43,9 +43,9 @@ span {
 
 .menu a {
   color: white;
-  font-weight: 600;
+  font-weight: 550;
   font-family: 'Montserrast', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   color: #22D4FD;
 }
 
@@ -90,6 +90,7 @@ span {
 .apresentation__initial__text {
   font-size: 20px;
 }
+
 
 .apresentation__experiences {
   display: flex;
@@ -136,8 +137,8 @@ span {
   background-color: #22D4FD;
   color: black;
 
-  font-weight: 1000;
-  font-size: 24px;
+  font-weight: 900;
+  font-size: 22px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }

@@ -17,7 +17,7 @@ body {
 }
 
 main div {
-  padding: 30px;  
+  padding: 60px;  
 }
 
 a {
@@ -43,9 +43,9 @@ span {
 
 .menu a {
   color: white;
-  font-weight: 600;
+  font-weight: 550;
   font-family: 'Montserrast', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   color: #22D4FD;
 }
 
@@ -83,12 +83,19 @@ span {
 }
 
 .apresentation__initial__title {
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Krona One", sans-serif;
 }
 
-.apresentation__initial__text {
-  font-size: 20px;
+.apresentation__initial__body {
+  display: flex;
+}
+
+.apresentation__initial__text__introdution {
+  font-family: "Krona One", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #22D4FD;
 }
 
 .apresentation__experiences {
@@ -104,7 +111,7 @@ span {
   align-items: center;
   text-align: center;
   gap: 25px;
-  margin-top: 80px;
+  margin-top: 180px;
 }
 
 .apresentation__utils a {
