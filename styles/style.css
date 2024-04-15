@@ -21,14 +21,14 @@ body {
   box-sizing: border-box;
   background: var(--cor-primaria);
   font-family: var(--fonte-secundaria);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   font-style: normal;
   color: var(--cor-secundaria);
 }
 
 main div {
-  padding: 60px;  
+  padding: 30px;  
 }
 
 a {
@@ -55,7 +55,7 @@ span {
 .menu a {
   font-weight: 550;
   font-family: var(--fonte-primaria);
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--cor-terciaria);
 }
 
@@ -64,12 +64,13 @@ span {
 }
 
 .apresentation {
-  padding: 3% 15%;
+  padding: 3% 10%;
 
   display: flex;
   align-items: start;
   justify-content: space-between;
   background-color: var(--cor-primaria);
+  gap: 70px;
 }
 
 .site-subtitle,
@@ -81,7 +82,7 @@ span {
 
 .site-subtitle {
   font-style: italic;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .apresentation__initial {
@@ -89,22 +90,38 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 40%;
   background-color: var(--cor-primaria);
 }
 
 .apresentation__initial__title {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: var(--fonte-terciaria);
 }
 
 .apresentation__initial__body {
+  width: 100%;
   display: flex;
+}
+
+.apresentation__initial__body_about_me {
+  width: 50%;
+}
+
+.apresentation__image__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.apresentation__image__div {
+  width: 100%;
 }
 
 .apresentation__initial__text__introdution {
   font-family: var(--fonte-terciaria);
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
   color: var(--cor-terciaria);
 }
@@ -113,6 +130,10 @@ span {
   display: flex;
   flex-direction: column;
   padding: 5%;
+}
+
+.apresentation__image__main {
+  width: 100%;
 }
 
 .apresentation__utils {
@@ -128,7 +149,7 @@ span {
 .apresentation__utils a {
   border: 2px solid var(--cor-terciaria);
   border-radius: 8px;
-  width: 180px;
+  width: 80%;
   padding: 10px;
   color: var(--cor-secundaria);
  
@@ -155,7 +176,55 @@ span {
   color: var(--cor-primaria);
 
   font-weight: 1000;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: var(--fonte-primaria);
   text-align: center;
+}
+
+@media(max-width: 1300px) {
+  .apresentation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;  
+  }
+
+  .menu a{    
+    text-align: center;
+    padding: 20px;  
+    font-size: 30px;
+  }
+
+  .apresentation__initial {
+    width: 100%;
+  }
+
+  .apresentation__initial__body {
+    width: 100%;
+  }
+
+  .apresentation__initial__body_about_me {
+    width: 100%;
+  }
+
+  .apresentation__initial__body_about_me p {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .apresentation__image__section {
+    width: 100%;
+  }
+
+
+  .apresentation__utils {
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px 50px 0px;
+  }
 }

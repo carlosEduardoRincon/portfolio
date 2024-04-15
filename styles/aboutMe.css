@@ -110,6 +110,10 @@ span {
   padding: 5%;
 }
 
+.apresentation__initial__image {
+  width: 50%;  
+}
+
 .apresentation__utils {
   display: flex;
   flex-direction: column;
