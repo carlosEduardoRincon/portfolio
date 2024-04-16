@@ -45,7 +45,7 @@ span {
   padding: 2% 0 0 15%;
 
   display: flex;
-  gap: 80px;  
+  gap: 30px;  
 }
 
 .menu__pages {
@@ -64,13 +64,12 @@ span {
 }
 
 .apresentation {
-  padding: 3% 10%;
-
+  padding: 8% 25%;
+  
   display: flex;
   align-items: start;
   justify-content: space-between;
   background-color: var(--cor-primaria);
-  gap: 70px;
 }
 
 .site-subtitle,
@@ -90,33 +89,37 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 30%;
   background-color: var(--cor-primaria);
 }
 
 .apresentation__initial__title {
   font-size: 2.5rem;
+  width: 100%;
   font-family: var(--fonte-terciaria);
 }
 
 .apresentation__initial__body {
   width: 100%;
   display: flex;
+  margin-right: 100px;
+
 }
 
 .apresentation__initial__body_about_me {
-  width: 50%;
+  width: 60%;
 }
 
 .apresentation__image__section {
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
-.apresentation__image__div {
+.apresentation__image__main {
   width: 100%;
+  margin-top: 100px;
 }
 
 .apresentation__initial__text__introdution {
@@ -132,10 +135,6 @@ span {
   padding: 5%;
 }
 
-.apresentation__image__main {
-  width: 100%;
-}
-
 .apresentation__utils {
   display: flex;
   flex-direction: column;
@@ -144,6 +143,7 @@ span {
   text-align: center;
   gap: 25px;
   margin-top: 180px;
+  margin-left: 60px;
 }
 
 .apresentation__utils a {
@@ -181,10 +181,11 @@ span {
   text-align: center;
 }
 
-@media(max-width: 1300px) {
+@media(max-width: 1000px) {
   .apresentation {
     display: flex;
     flex-direction: column;
+    gap: 20px;
   }
 
   .menu {    
@@ -221,6 +222,10 @@ span {
     width: 100%;
   }
 
+  .apresentation__image__main {
+    width: 100%;
+    margin-top: 0px;
+  }
 
   .apresentation__utils {
     width: 100%;
